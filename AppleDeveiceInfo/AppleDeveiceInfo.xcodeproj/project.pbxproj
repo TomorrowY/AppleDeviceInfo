@@ -13,6 +13,9 @@
 		E53D169C21B62DD50022A957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53D169B21B62DD50022A957 /* Assets.xcassets */; };
 		E53D169F21B62DD50022A957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53D169D21B62DD50022A957 /* LaunchScreen.storyboard */; };
 		E53D16A221B62DD50022A957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D16A121B62DD50022A957 /* main.m */; };
+		E53D16AB21B630F60022A957 /* DeveceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D16AA21B630F60022A957 /* DeveceInformation.m */; };
+		E53D16B221B632AA0022A957 /* ShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D16B021B632AA0022A957 /* ShowTableViewCell.m */; };
+		E53D16B321B632AA0022A957 /* ShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D16B121B632AA0022A957 /* ShowTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		E53D169E21B62DD50022A957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53D16A021B62DD50022A957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53D16A121B62DD50022A957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E53D16A921B630F60022A957 /* DeveceInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeveceInformation.h; sourceTree = "<group>"; };
+		E53D16AA21B630F60022A957 /* DeveceInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeveceInformation.m; sourceTree = "<group>"; };
+		E53D16AF21B632AA0022A957 /* ShowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTableViewCell.h; sourceTree = "<group>"; };
+		E53D16B021B632AA0022A957 /* ShowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewCell.m; sourceTree = "<group>"; };
+		E53D16B121B632AA0022A957 /* ShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		E53D169121B62DD30022A957 /* AppleDeveiceInfo */ = {
 			isa = PBXGroup;
 			children = (
+				E53D16A821B630940022A957 /* DeveiceInfo */,
 				E53D169221B62DD30022A957 /* AppDelegate.h */,
 				E53D169321B62DD30022A957 /* AppDelegate.m */,
 				E53D169521B62DD30022A957 /* ViewController.h */,
@@ -67,8 +76,20 @@
 				E53D169D21B62DD50022A957 /* LaunchScreen.storyboard */,
 				E53D16A021B62DD50022A957 /* Info.plist */,
 				E53D16A121B62DD50022A957 /* main.m */,
+				E53D16AF21B632AA0022A957 /* ShowTableViewCell.h */,
+				E53D16B021B632AA0022A957 /* ShowTableViewCell.m */,
+				E53D16B121B632AA0022A957 /* ShowTableViewCell.xib */,
 			);
 			path = AppleDeveiceInfo;
+			sourceTree = "<group>";
+		};
+		E53D16A821B630940022A957 /* DeveiceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E53D16A921B630F60022A957 /* DeveceInformation.h */,
+				E53D16AA21B630F60022A957 /* DeveceInformation.m */,
+			);
+			path = DeveiceInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +151,7 @@
 			files = (
 				E53D169F21B62DD50022A957 /* LaunchScreen.storyboard in Resources */,
 				E53D169C21B62DD50022A957 /* Assets.xcassets in Resources */,
+				E53D16B321B632AA0022A957 /* ShowTableViewCell.xib in Resources */,
 				E53D169A21B62DD30022A957 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53D16AB21B630F60022A957 /* DeveceInformation.m in Sources */,
 				E53D169721B62DD30022A957 /* ViewController.m in Sources */,
 				E53D16A221B62DD50022A957 /* main.m in Sources */,
+				E53D16B221B632AA0022A957 /* ShowTableViewCell.m in Sources */,
 				E53D169421B62DD30022A957 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
